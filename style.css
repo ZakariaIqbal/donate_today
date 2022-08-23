@@ -13,6 +13,7 @@ body ,html{
     background-size: cover;
     width: 100%;
     height: 70%;
+    
 }
 .content-area{
     height: 100%;
@@ -113,7 +114,7 @@ background-color: antiquewhite;
     margin: 20px;
 }
 .half-width img{
-    
+    border-radius: 10px;
     width: 80%;
     height: 100%;
 }
@@ -147,4 +148,12 @@ background-color: antiquewhite;
     border-radius: 5px ;
     background-color: crimson;
     cursor: pointer;
+}
+footer{
+    font-size: 30px;
+    
+    color: white;
+    background-color: #0b0404;
+    text-align: center;
+    padding-top: 20px;
 }
