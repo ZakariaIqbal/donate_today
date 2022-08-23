@@ -29,7 +29,7 @@ body ,html{
     color :white;
     background-color: brown;
 
-    padding: 17px;
+    padding: 10px;
    
     border-radius: 10px;
 }
@@ -61,7 +61,8 @@ input{
 
    
 }
-#flexable{
+.flexable{
+   
     display: flex;
     margin: 20px;
     
@@ -74,10 +75,45 @@ input{
    margin-left: 3%;
    margin-right: 3%;
   background-color: rgba(102, 100, 100, 0.116);
-  border : 2px solid;
+   border-radius: 10px;
   
 }
 #selected{
     color: orange;
+    border: 2px solid;
     background-color: rgba(245, 234, 139, 0.322);
+}
+
+.donate-plan{
+
+ margin: 20px;
+ text-align: center;
+}
+.card{
+    text-align: left;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px grey;
+    width:40% ;
+    margin: 15px;
+    padding: 20px;
+}
+#card-one{
+background-color: antiquewhite;
+}
+#card-two{
+    background-color: skyblue;
+}
+#card-three{
+    background-color: lightgoldenrodyellow;
+}
+.half-width{ 
+  
+    width: 50%;
+    padding-left: 7%;
+    margin: 20px;
+}
+.half-width img{
+    
+    width: 80%;
+    height: 100%;
 }
